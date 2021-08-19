@@ -1,6 +1,5 @@
 console.clear();
 
-const pixelRatio = 2;
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
@@ -77,7 +76,7 @@ let galaxyColors = [
 function dots() {
   sampler = new THREE.MeshSurfaceSampler(skull).build();
 
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 70; i++) {
     const linesMaterial = new THREE.LineBasicMaterial({
       color: colors[i % 4],
       transparent: true,
