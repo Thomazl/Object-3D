@@ -1,5 +1,6 @@
 console.clear();
 
+const pixelRatio = 1;
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
