@@ -7,5 +7,32 @@ body {
   position: absolute;
 }
 
+.contentBrain{
+  width: 900px;
+  position: absolute;
+  margin: 0 auto;
+  left: 90%;
+}
+.contentBrain img{
+  width: 250px;
+}
 
+.contentText{
+  font-family: Montserrat;
+  width: 900px;
+  position: absolute;
+  margin: 0 auto;
+  color: white;
+  left: 140%;
+  top: 30%;
+}
 
+.contentText h2{
+  font-size: 38px;
+}
+
+.contentText li{
+  list-style-type: none;
+  padding-bottom: 15px;
+  font-size: 18px;
+}

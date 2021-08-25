@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera(
   0.001,
   1000
 );
-camera.position.z = 3;
+camera.position.z = 2;
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setPixelRatio(pixelRatio);
@@ -95,7 +95,7 @@ function dots() {
 let skull = null;
 const loader = new THREE.OBJLoader();
 loader.load(
-  "Cerebro_3D.obj",
+  "brain-3d.obj",
   (obj) => {
     skull = obj.children[0];
     dots();
@@ -202,7 +202,7 @@ const galaxyGeometryVertices = [];
 const galaxyGeometryColors = [];
 const galaxyGeometrySizes = [];
 
-for (let i = 0; i < 1500; i++) {
+for (let i = 0; i < 500; i++) {
   const star = new Star();
   star.setup(galaxyColors[Math.floor(Math.random() * galaxyColors.length)]);
   galaxyGeometryVertices.push(star.x, star.y, star.z);
@@ -288,8 +288,8 @@ function onMouseMove(e) {
     e.clientX,
     0,
     window.innerWidth,
-    -5,
-    5
+    -2,
+    2
   );
   gsap.to(group.rotation, {
     y: y,
