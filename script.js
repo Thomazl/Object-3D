@@ -1,6 +1,6 @@
 console.clear();
 
-const pixelRatio = 1;
+const pixelRatio = 2;
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera(
   0.001,
   1000
 );
-camera.position.z = 2.7;
+camera.position.z = 5;
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setPixelRatio(pixelRatio);
@@ -77,7 +77,7 @@ let galaxyColors = [
 function dots() {
   sampler = new THREE.MeshSurfaceSampler(skull).build();
 
-  for (let i = 0; i < 70; i++) {
+  for (let i = 0; i < 100; i++) {
     const linesMaterial = new THREE.LineBasicMaterial({
       color: colors[i % 4],
       transparent: true,
@@ -95,7 +95,7 @@ function dots() {
 let skull = null;
 const loader = new THREE.OBJLoader();
 loader.load(
-  "brain.obj",
+  "https://drive.google.com/file/d/1Z5C7wEIUeDSeQy7GopeM53_ZhYpfvYJg/view?usp=sharing",
   (obj) => {
     skull = obj.children[0];
     dots();
@@ -213,7 +213,7 @@ for (let i = 0; i < 1500; i++) {
 const starsGeometry = new THREE.BufferGeometry();
 starsGeometry.setAttribute(
   "size",
-  new THREE.Float32BufferAttribute(galaxyGeometrySizes, 1)
+  new THREE.Float32BufferAttribute(galaxyGeometrySizes, 3)
 );
 starsGeometry.setAttribute(
   "color",

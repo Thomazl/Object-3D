@@ -1,8 +1,24 @@
 body {
-  width: 2000px;
+  width: 900px;
   margin: 0 auto;
   overflow: hidden;
   background: #000;
-  line-height: 1000px;
-  height: 1000px;
+  height: 100%;
+  position: absolute;
 }
+
+.containerFocus{
+  position: absolute;
+  width: 900px;
+}
+
+header img{
+  width: 230px;
+  position: absolute;
+  left: 90%;
+
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+

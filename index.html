@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pt-br" >
 <head>
   <meta charset="UTF-8">
   <title>Sparky model 3D✨</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css" />
 
 </head>
 <body>
+<div class="containerFocus">
+<header>
+  <img src="https://d335luupugsy2.cloudfront.net/cms/files/245197/1629295565/$y3wr0tsp3j8" />
+</header>
+
+
+</div>
+
+
+  
 <!-- partial:index.partial.html -->
-<script type="x-shader/x-vertex" id="vertexshader">
+ <script type="x-shader/x-vertex" id="vertexshader">
   attribute float size;
   attribute vec3 color;
   attribute float fade;
@@ -21,7 +31,7 @@
     gl_PointSize = size;
     gl_Position = projectionMatrix * mvPosition;
   }
-</script>
+ </script>
 
 <script type="x-shader/x-fragment" id="fragmentshader">
   uniform sampler2D pointTexture;
@@ -42,7 +52,6 @@
 <script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/shaders/LuminosityHighPassShader.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/shaders/CopyShader.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/three@0.131.3/examples/js/postprocessing/ShaderPass.js'></script>
-<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./script.js"></script>
-
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="script.js"></script>
 </body>
 </html>
