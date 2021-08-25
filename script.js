@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera(
   0.001,
   1000
 );
-camera.position.z = 5;
+camera.position.z = 3;
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setPixelRatio(pixelRatio);
@@ -95,7 +95,7 @@ function dots() {
 let skull = null;
 const loader = new THREE.OBJLoader();
 loader.load(
-  "https://drive.google.com/file/d/1Z5C7wEIUeDSeQy7GopeM53_ZhYpfvYJg/view?usp=sharing",
+  "Cerebro_3D.obj",
   (obj) => {
     skull = obj.children[0];
     dots();
@@ -281,15 +281,15 @@ function onMouseMove(e) {
     e.clientY,
     0,
     window.innerHeight,
-    -0.3,
-    0.3
+    -1,
+    1
   );
   const y = THREE.MathUtils.mapLinear(
     e.clientX,
     0,
     window.innerWidth,
-    -0.3,
-    0.3
+    -5,
+    5
   );
   gsap.to(group.rotation, {
     y: y,
