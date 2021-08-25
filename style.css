@@ -11,7 +11,7 @@ body {
   width: 900px;
   position: absolute;
   margin: 0 auto;
-  left: 90%;
+  left: 20%;
 }
 .contentBrain img{
   width: 250px;
@@ -23,7 +23,7 @@ body {
   position: absolute;
   margin: 0 auto;
   color: white;
-  left: 140%;
+  left: 40%;
   top: 30%;
 }
 
