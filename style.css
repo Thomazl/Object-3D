@@ -1,3 +1,55 @@
+@media screen and (max-width: 500px) {
+  body {
+    width: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #000;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .contentBrain{
+    width: 500px;
+    position: absolute;
+    margin: 0 auto;
+    left: 70%;
+  }
+  .contentBrain img{
+    width: 250px;
+  }
+  
+  .contentText{
+    font-family: Montserrat;
+    width: 500px;
+    position: absolute;
+    margin: 0 auto;
+    color: white;
+    left: 110%;
+    top: 25%;
+  }
+  
+  .contentText h2{
+    font-size: 38px;
+  }
+  
+  .contentText li{
+    list-style-type: none;
+    padding-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .contentText a{
+    position: absolute;
+    font-family: Montserrat;
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background: #00DBFF;
+  
+  border-radius: 15px;
+  left: 5%;
+  }
+}
 @media screen and (min-width: 700px) {
   
 
@@ -45,65 +97,14 @@ body {
   font-family: Montserrat;
   text-decoration: none;
   color: white;
-  padding: 15px 30px;
-  background: rgb(99,1,77);
-background: linear-gradient(151deg, rgba(99,1,77,0.896796218487395) 0%, rgba(0,215,255,0.8995973389355743) 100%);
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 13px 27px;
+  background: #00DBFF;
 border-radius: 15px;
 left: 5%;
 }
 }
 
-@media screen and (max-width: 500px) {
-  body {
-    width: 450px;
-    margin: 0 auto;
-    overflow: hidden;
-    background: #000;
-    height: 100%;
-    position: absolute;
-  }
-  
-  .contentBrain{
-    width: 500px;
-    position: absolute;
-    margin: 0 auto;
-    left: 70%;
-  }
-  .contentBrain img{
-    width: 250px;
-  }
-  
-  .contentText{
-    font-family: Montserrat;
-    width: 500px;
-    position: absolute;
-    margin: 0 auto;
-    color: white;
-    left: 110%;
-    top: 25%;
-  }
-  
-  .contentText h2{
-    font-size: 38px;
-  }
-  
-  .contentText li{
-    list-style-type: none;
-    padding-bottom: 15px;
-    font-size: 18px;
-  }
-  
-  .contentText a{
-    position: absolute;
-    font-family: Montserrat;
-    text-decoration: none;
-    color: white;
-    padding: 15px 30px;
-    background: rgb(99,1,77);
-  background: linear-gradient(151deg, rgba(99,1,77,0.896796218487395) 0%, rgba(0,215,255,0.8995973389355743) 100%);
-  border-radius: 15px;
-  left: 5%;
-  }
-}
 
 
