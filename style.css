@@ -78,18 +78,18 @@ body {
   position: absolute;
   margin: 0 auto;
   color: white;
-  left: 110%;
-  top: 25%;
+  left: 60%;
+  top: 18%;
 }
 
 .contentText h2{
   font-size: 38px;
 }
 
-.contentText li{
-  list-style-type: none;
-  padding-bottom: 15px;
+.contentText2 {
   font-size: 18px;
+  position: absolute;
+  left: 25%;
 }
 
 .contentText a{
@@ -102,7 +102,8 @@ body {
   padding: 13px 27px;
   background: #00DBFF;
 border-radius: 15px;
-left: 5%;
+left: 35%;
+top: 140%;
 }
 }
 
