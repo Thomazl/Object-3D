@@ -1,3 +1,6 @@
+@media screen and (min-width: 700px) {
+  
+
 body {
   width: 900px;
   margin: 0 auto;
@@ -47,4 +50,5 @@ body {
 background: linear-gradient(151deg, rgba(99,1,77,0.896796218487395) 0%, rgba(0,215,255,0.8995973389355743) 100%);
 border-radius: 15px;
 left: 5%;
+}
 }
