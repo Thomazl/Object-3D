@@ -80,7 +80,7 @@ body {
   color: white;
   left: 44%;
   top: 30%;
-  text-shadow: 2px 4px #000;
+  text-shadow: -1px 6px 17px rgba(0, 2, 0, 0.692);
 }
 
 .contentText h2{
