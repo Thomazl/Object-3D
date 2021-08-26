@@ -80,11 +80,11 @@ body {
   color: white;
   left: 44%;
   top: 30%;
-  text-shadow: -1px 6px 17px rgba(0, 2, 0, 0.692);
 }
 
 .contentText h2{
-  font-size: 38px;
+  font-size: 50px;
+  margin-bottom: 5px;
 }
 
 .contentText2 {
@@ -104,7 +104,7 @@ body {
   font-weight: bolder;
   padding: 13px 27px;
   background: #00DBFF;
-border-radius: 15px;
+border-radius: 10px;
 left: 35%;
 top: 140%;
 text-shadow: none;
