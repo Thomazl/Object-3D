@@ -94,7 +94,7 @@ body {
 .contentText2 span{
   padding-left: 15px;
 }
-.contentText a{
+.contentBtn a{
   position: absolute;
   font-family: Montserrat;
   text-decoration: none;
