@@ -78,7 +78,7 @@ body {
   position: absolute;
   margin: 0 auto;
   color: white;
-  left: 60%;
+  left: 35%;
   top: 18%;
 }
 
@@ -91,7 +91,9 @@ body {
   position: absolute;
   left: 25%;
 }
-
+.contentText2 span{
+  padding-left: 15px;
+}
 .contentText a{
   position: absolute;
   font-family: Montserrat;
