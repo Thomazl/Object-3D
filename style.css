@@ -80,6 +80,7 @@ body {
   color: white;
   left: 35%;
   top: 18%;
+  text-shadow: 2px 4px #000;
 }
 
 .contentText h2{
@@ -106,6 +107,7 @@ body {
 border-radius: 15px;
 left: 35%;
 top: 140%;
+text-shadow: none;
 }
 }
 
