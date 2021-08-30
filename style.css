@@ -63,7 +63,7 @@ text-shadow: none;
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 438px) {
   body {
     width: 450px;
     margin: 0 auto;
@@ -89,7 +89,7 @@ text-shadow: none;
     position: absolute;
     margin: 0 auto;
     color: white;
-    left: -3%;
+    left: -10%;
     top: 50%;
     text-align: center;
   }
