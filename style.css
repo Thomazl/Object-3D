@@ -77,7 +77,8 @@ text-shadow: none;
     width: 500px;
     position: absolute;
     margin: 0 auto;
-    left: 20%;
+    left: 18%;
+    top: 1%;
   }
   .contentBrain img{
     width: 250px;
