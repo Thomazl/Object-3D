@@ -42,24 +42,7 @@ body {
   position: absolute;
   left: -7%;
 }
-.contentText2 li{
-  padding-left: 15px;
-list-style-type: none;
-}
-.contentBtn a{
-  position: absolute;
-  font-family: Open Sans;
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  font-weight: bolder;
-  padding: 13px 27px;
-  background: #00DBFF;
-border-radius: 10px;
-left: -40%;
-top: 160%;
-text-shadow: none;
-}
+
 }
 
 
