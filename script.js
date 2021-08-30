@@ -22,7 +22,7 @@ const bloomPass = new THREE.UnrealBloomPass(
   new THREE.Vector2(window.innerWidth, window.innerHeight),
   1.5,
   0.4,
-  0.85
+  0.3
 );
 bloomPass.threshold = 0;
 bloomPass.strength = 0.6;
@@ -95,7 +95,7 @@ function dots() {
 let skull = null;
 const loader = new THREE.OBJLoader();
 loader.load(
-  "brain-3d.obj",
+  "Cerebro_3D.obj",
   (obj) => {
     skull = obj.children[0];
     dots();
