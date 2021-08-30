@@ -88,7 +88,7 @@ text-shadow: none;
     position: absolute;
     margin: 0 auto;
     color: white;
-    left: 5%;
+    left: -3%;
     top: 50%;
     text-align: center;
   }
@@ -111,6 +111,6 @@ text-shadow: none;
     padding: 15px 30px;
     background: #00DBFF;
   border-radius: 15px;
-  left: 5%;
+  left: 35%;
   }
 }
