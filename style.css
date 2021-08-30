@@ -114,5 +114,6 @@ text-shadow: none;
     background: #00DBFF;
   border-radius: 15px;
   left: 40%;
+  bottom: -50%;
   }
 }
