@@ -62,11 +62,11 @@ body {
     width: 500px;
     position: absolute;
     margin: 0 auto;
-    left: 18%;
-    top: 1%;
+    left: 24%;
+    top: 3%;
   }
   .contentBrain img{
-    width: 250px;
+    width: 200px;
   }
   
   .contentText{
@@ -75,12 +75,12 @@ body {
     position: absolute;
     margin: 0 auto;
     color: white;
-    left: -10%;
+    left: 22%;
     top: 50%;
   }
   
   .contentText h1{
-    font-size: 20px;
+    font-size: 30px;
     text-shadow: 0px 3px 16px rgba(149, 79, 194, 1);
   }
   
