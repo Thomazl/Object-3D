@@ -76,7 +76,7 @@ text-shadow: none;
     width: 500px;
     position: absolute;
     margin: 0 auto;
-    left: 50%;
+    left: 30%;
   }
   .contentBrain img{
     width: 250px;
@@ -88,18 +88,18 @@ text-shadow: none;
     position: absolute;
     margin: 0 auto;
     color: white;
-    left: 110%;
-    top: 25%;
+    left: 10%;
+    top: 5%;
   }
   
   .contentText h2{
-    font-size: 38px;
+    font-size: 20px;
   }
   
   .contentText li{
     list-style-type: none;
     padding-bottom: 15px;
-    font-size: 18px;
+    font-size: 12px;
   }
   
   .contentText a{
