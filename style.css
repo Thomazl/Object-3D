@@ -76,7 +76,7 @@ text-shadow: none;
     width: 500px;
     position: absolute;
     margin: 0 auto;
-    left: 30%;
+    left: 20%;
   }
   .contentBrain img{
     width: 250px;
@@ -89,7 +89,8 @@ text-shadow: none;
     margin: 0 auto;
     color: white;
     left: 10%;
-    top: 5%;
+    top: 15%;
+    text-align: center;
   }
   
   .contentText h2{
