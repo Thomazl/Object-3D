@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera(
   0.001,
   1000
 );
-camera.position.z = 2;
+camera.position.z = 1.3;
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setPixelRatio(pixelRatio);
