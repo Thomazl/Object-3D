@@ -64,7 +64,7 @@ body {
   
   .contentText{
     font-family: Open Sans;
-    width: 500px;
+    max-width: 300px;
     position: absolute;
     margin: 0 auto;
     color: white;
