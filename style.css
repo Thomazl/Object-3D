@@ -38,15 +38,6 @@ body {
   margin-bottom: 5px;
   text-shadow: 0px 3px 16px rgba(131, 35, 190, 0.329);
 }
-.BtnContent{
-  padding: 15px 30px;
-  border-radius: 50px;
-  color: white;
-  text-decoration: none;
-  background: rgb(99,1,77);
-  background: linear-gradient(151deg, rgba(99,1,77,0.5) 0%, rgba(0,215,255,0.5) 100%);
-  margin-top: 15px;
-}
 }
 
 
@@ -86,8 +77,5 @@ body {
   .contentText h1{
     font-size: 30px;
     text-shadow: 0px 3px 16px rgba(149, 79, 194, 1);
-  }
-  .BtnContent{
-    display: none;
   }
 }
