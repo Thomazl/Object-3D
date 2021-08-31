@@ -52,7 +52,7 @@ body {
   }
   
   .contentBrain{
-    width: 500px;
+    width: 700px;
     position: absolute;
     margin: 0 auto;
     left: 24%;
@@ -68,7 +68,7 @@ body {
     position: absolute;
     margin: 0 auto;
     color: white;
-    left: -4%;
+    left: -14%;
     top: 50%;
     text-align: center;
   }
