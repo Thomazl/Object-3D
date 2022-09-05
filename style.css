@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,400&display=swap');
-@media screen and (min-width: 700px) {
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
 
 body {
-  width: 900px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   background: #000;
@@ -11,71 +13,7 @@ body {
   position: absolute;
 }
 
-.contentBrain{
+.container {
   width: 900px;
-  position: absolute;
-  margin: 0 auto;
-  left: 72%;
-  top: 2%;
-}
-.contentBrain img{
-  width: 250px;
-}
-
-.contentText{
-  font-family: Open Sans;
-  width: 900px;
-  position: absolute;
-  margin: 0 auto;
-  color: white;
-  left: 38%;
-  top: 35%;
-  text-align: center;
-}
-
-.contentText h1{
-  font-size: 50px;
-  margin-bottom: 5px;
-  text-shadow: 0px 3px 16px rgba(131, 35, 190, 0.329);
-}
-}
-
-
-
-@media screen and (max-width: 500px) {
-  body {
-    width: 450px;
-    margin: 0 auto;
-    overflow: hidden;
-    background: #000;
-    height: 100%;
-    position: absolute;
-  }
-  
-  .contentBrain{
-    width: 700px;
-    position: absolute;
-    margin: 0 auto;
-    left: 24%;
-    top: 3%;
-  }
-  .contentBrain img{
-    width: 200px;
-  }
-  
-  .contentText{
-    font-family: Open Sans;
-    max-width: 300px;
-    position: absolute;
-    margin: 0 auto;
-    color: white;
-    left: 13%;
-    top: 50%;
-    text-align: center;
-  }
-  
-  .contentText h1{
-    font-size: 30px;
-    text-shadow: 0px 3px 16px rgba(149, 79, 194, 1);
-  }
+  height: 100%;
 }
